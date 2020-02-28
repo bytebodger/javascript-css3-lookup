@@ -30,6 +30,6 @@ export default class App extends React.Component{
             }}
          >Foo</div>
       );
-   }
+   };
 }
 ```
