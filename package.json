@@ -1,0 +1,55 @@
+{
+  "name": "@toolz/css3",
+  "version": "1.0.0",
+  "description": "A lookup utility for CSS3 properties in JavaScript",
+  "keywords": [
+    "css",
+    "css3",
+    "style",
+    "inline css",
+    "inline style",
+    "code completion",
+    "IDE",
+    "javascript"
+  ],
+  "homepage": "https://github.com/bytebodger/css3",
+  "bugs": {
+    "email": "adam.davis@hashverify.com",
+    "url": "https://github.com/bytebodger/css3/issues"
+  },
+  "main": "src/color.js",
+  "scripts": {
+    "test": "jest --transformIgnorePatterns \"node_modules/(?!@toolz/css3)/\" --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytebodger/css3.git"
+  },
+  "author": "Adam Nathaniel Davis <adam.davis@hashverify.com> (https://writing.voyage)",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.12.13",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-jest": "^26.6.2",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "jest-matcher-one-of": "^1.0.2",
+    "nodemon": "^2.0.4"
+  },
+  "browserslist": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version",
+    "last 1 ie version"
+  ]
+}

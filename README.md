@@ -1,35 +1,31 @@
-# javascript-css3-lookup
+# css3
 
-A utility class for JS that shows all of the available properties/values in CSS3.
+`css3` is a lookup utility for CSS3 properties to be used when writing inline styles in JavaScript. It's a simple object that contains most of the commonly-used options for most of the CSS3 properties.
 
 ## Usage
 
-```javascript
-// an example React file (but this can be used in plain ol' JS as well)
-import React from 'react';
-import css3 from './css';
+After installation, import the utility as follows:
 
-export default class App extends React.Component{
-   render = () => {
-      return (
-         <div
-            style={{
-               // Every time you type 'css3.' in your IDE, it should show you an autocomplete
-               // list of CSS3 properties.  You choose the property that matches the inline
-               // style property that you're trying to complete.  Once you've chosen the 
-               // matching property from your IDE's autocomplete list, type '.' again, and you
-               // will see a list of all the potential static properties that are available.
-               // For example, typing 'css3.float.' will show 'left', 'inherit', 'none', 'initial',
-               // 'unset', and 'right' as potential options.  For CSS3 properties that 
-               // accept/require free-form text input (e.g., the 'background' property), the 
-               // autocomplete will show you examples of the ways in which that input can be 
-               // formatted.
-               cursor : css3.cursor.grab,
-               float : css3.float.left,
-               textAlign : css3.textAlign.justify,
-            }}
-         >Foo</div>
-      );
-   };
+```javascript
+import { css3 } from '@toolz/css3';
+```
+
+The `css3` variable will now be available within your code, and the structure of the object should provide for easier code completions in your IDE.
+
+**Examples:**
+
+```javascript
+export const Foo = () => {
+   return <>
+      <div style={{
+         cursor: css3.cursor.crosshair,
+         // every time you type one of the periods on the line above,
+         // your IDE should show you all of the options that are 
+         // available - first in the css3 object, and then in the 
+         // css3.cursor object
+      }}>
+         Here is the div
+      </div>
+   </>
 }
 ```
