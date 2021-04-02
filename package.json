@@ -1,6 +1,6 @@
 {
   "name": "@toolz/css3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lookup utility for CSS3 properties in JavaScript",
   "keywords": [
     "css",
@@ -14,7 +14,7 @@
   ],
   "homepage": "https://github.com/bytebodger/css3",
   "bugs": {
-    "email": "adam.davis@hashverify.com",
+    "email": "me@adamdavis.codes",
     "url": "https://github.com/bytebodger/css3/issues"
   },
   "main": "src/color.js",
@@ -25,7 +25,7 @@
     "type": "git",
     "url": "https://github.com/bytebodger/css3.git"
   },
-  "author": "Adam Nathaniel Davis <adam.davis@hashverify.com> (https://writing.voyage)",
+  "author": "Adam Nathaniel Davis <me@adamdavis.codes> (https://adamdavis.codes)",
   "license": "MIT",
   "private": false,
   "publishConfig": {

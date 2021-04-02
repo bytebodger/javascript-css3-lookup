@@ -1010,8 +1010,11 @@ export const css3 = {
    textDecoration: {
       inherit: 'inherit',
       initial: 'initial',
+      lineThrough: 'line-through',
+      none: 'none',
+      overline: 'overline',
+      underline: 'underline',
       unset: 'unset',
-      [`ex: underline`]: null,
       [`ex: overline dotted`]: null,
       [`ex: line-through red`]: null,
       [`ex: underline double #06c`]: null,
